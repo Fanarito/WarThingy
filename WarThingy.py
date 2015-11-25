@@ -57,5 +57,5 @@ if __name__ == '__main__':
     game = Main()
 
     while game.playing:
-        game.clock.tick(120)
+        game.clock.tick(60)
         game.main()
