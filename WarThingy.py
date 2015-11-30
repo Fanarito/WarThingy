@@ -61,6 +61,7 @@ class Main:
         if (key[pygame.K_DOWN] or key[pygame.K_s]):
             if ( screen_height > self.player.rect.y + self.player.image.get_rect().size[1]):
                 self.player.rect.centery += 5
+        self.screen.fill((0, 0, 0))
         #print self.player.image.get_rect().size
         self.all_sprites.draw(self.screen)
         pygame.display.flip()
